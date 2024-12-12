@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+  
+.navbar-left h2 {
+    margin: 0;
+    color: white;
+}
+  
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+  
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+  
+.navbar-link:hover {
+    color: #ffdd57;
+}
